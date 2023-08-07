@@ -1574,7 +1574,7 @@ function getRandomNumber(min, max) {
     showQuestion();
   
     // Inicia o timer de 60 minutos (1 hora)
-    const totalSeconds = 60 * 0.1;
+    const totalSeconds = 60 * 60;
     let secondsLeft = totalSeconds;
     updateTimerDisplay(secondsLeft); // Mostra o tempo inicial antes de começar a contar
   
