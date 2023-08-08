@@ -70,3 +70,19 @@ main {
   padding: 20px;
   border-radius: 10px;
 }
+
+body {
+  background-color: #f8f9fa;
+}
+.navbar {
+  background-color: #343a40;
+}
+.simulado-card {
+  border: none;
+}
+
+/* Estilo para links desativados */
+.disabled {
+  color: #6c757d; /* Cor cinza */
+  pointer-events: none; /* Impede cliques */
+}
